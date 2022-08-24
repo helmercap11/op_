@@ -18,11 +18,7 @@
 
             </ol>
 
-            <!--<div class="col-lg-12" style="text-align: right;">
 
-                <a href="?rota=Pagina-Inicial" class="btn btn-warning btn-sm">Voltar</a>
-
-            </div>-->
 
 
 
@@ -338,185 +334,381 @@
 
                             </div>
 
-                            <label for="name"><strong>Selecione o Município</strong></label>
+                            
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="inputAddress">Município</label>
+                                        <select class="form-select" aria-label="Default select example">
 
-                            <div class="form-group mt-3">
+                                            <option selected>Selecione o Município</option>
 
-                                <select class="form-select" aria-label="Default select example">
+                                            <option value="1">Luanda</option>
+                                            <option value="2">Kilamba Kiaxi</option>
+                                            <option value="3">Belas</option>
+                                            <option value="3">Viana</option>
 
-                                    <option selected>Selecione o Município</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <label for="inputAddress">Categória</label>
+                                        <select class="form-select" aria-label="Default select example">
 
-                                    <option value="1">Luanda</option>
-                                    <option value="2">Kilamba Kiaxi</option>
-                                    <option value="3">Belas</option>
-                                    <option value="3">Viana</option>
+                                            <option selected>Selecione a Categória</option>
 
-                                </select>
+                                            <option value="1">Luanda</option>
+                                            <option value="2">Kilamba Kiaxi</option>
+                                            <option value="3">Belas</option>
+                                            <option value="3">Viana</option>
 
-                            </div><br><br>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+
 
                             <div class="row">
 
-                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
 
-                                    <div class="card rounded shadow-sm border-1">
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-3 col-12">
 
-                                        <div class="card-body p-4"><img src="../assets/img/carp.jpg" alt=""
-                                                class="img-fluid d-block mx-auto mb-3">
+                                    <div class=" cards card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Luanda</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Luanda</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional.</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+                                                    <div class="progress rounded-pill">
 
-                                            <h5> <a class="text-dark">Luanda</a></h5>
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
 
-
-
-                                            <h5>Todos os Projectos</h5>
-
-                                            <p class="small text-muted font-italic">Obras do PIIM cobrem
-
-                                                todo o
-
-                                                território
-
-                                                nacional .</p>
-                                            <a href="?rota=Projecto-Municipio">Ver carteira</a>
-
-                                            <div class="progress rounded-pill">
-
-                                                <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                                    aria-valuemax="100" style="width: 70%;"
-                                                    class="progress-bar bg-warning rounded-pill"> </div>
+                                                    </div>
+                                                   
+                                                </div>
 
                                             </div>
-
-
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
-
-                                    <div class="card rounded shadow-sm border-1">
-
-                                        <div class="card-body p-4"><img src="../assets/img/carp.jpg" alt=""
-                                                class="img-fluid d-block mx-auto mb-3">
-
-                                            <h5> <a href="?rota=Projecto-Municipio" class="text-dark">Cacuaco</a></h5>
-
-
-
-                                            <h5>Todos os Projectos</h5>
-
-                                            <p class="small text-muted font-italic">Obras do PIIM cobrem
-
-                                                todo o
-
-                                                território
-
-                                                nacional .</p>
-                                            <a href="?rota=Projecto-Municipio">Ver carteira</a>
-
-                                            <div class="progress rounded-pill">
-
-                                                <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                                    aria-valuemax="100" style="width: 70%;"
-                                                    class="progress-bar bg-warning rounded-pill"></div>
-
-                                            </div>
-
-
-
                                         </div>
 
+                                        <!--<div class="card-body p-4"><img src="../assets/img/carp.jpg" alt=""
+                                        class="img-fluid d-block mx-auto mb-3">
 
+                                    <h5> <a href="?rota=Projecto-Municipio" class="text-dark">Cacuaco</a></h5>
+                                    <h5>Todos os Projectos</h5>
 
-                                    </div>
+                                    <p class="small text-muted font-italic">Obras do PIIM cobrem
 
-                                </div>
+                                        todo o
 
-                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+                                        território
 
-                                    <div class="card rounded shadow-sm border-1">
+                                        nacional .</p>
+                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
 
-                                        <div class="card-body p-4"><img src="../assets/img/carp.jpg" alt=""
-                                                class="img-fluid d-block mx-auto mb-3">
+                                    <div class="progress rounded-pill">
 
-                                            <h5> <a href="?rota=Projecto-Municipio" class="text-dark">Kilamba kiaxi</a>
-                                            </h5>
-
-
-
-                                            <h5>Todos os Projectos</h5>
-
-                                            <p class="small text-muted font-italic">Obras do PIIM cobrem
-
-                                                todo o
-
-                                                território
-
-                                                nacional .</p>
-                                            <a href="?rota=Projecto-Municipio">Ver carteira</a>
-
-                                            <div class="progress rounded-pill">
-
-                                                <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                                    aria-valuemax="100" style="width: 70%;"
-                                                    class="progress-bar bg-warning rounded-pill"></div>
-
-                                            </div>
-
-
-
+                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100" style="width: 70%;"
+                                            class="progress-bar bg-warning rounded-pill">
                                         </div>
-
-
-
                                     </div>
-
-                                </div>
-
-                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
-
-                                    <div class="card rounded shadow-sm border-1">
-
-                                        <div class="card-body p-4"><img src="../assets/img/carp.jpg" alt=""
-                                                class="img-fluid d-block mx-auto mb-3">
-
-                                            <h5> <a href="?rota=Projecto-Municipio" class="text-dark">Viana</a></h5>
-
-
-
-                                            <h5>Todos os Projectos</h5>
-
-                                            <p class="small text-muted font-italic">Obras do PIIM cobrem
-
-                                                todo o
-
-                                                território
-
-                                                nacional .</p>
-                                            <a href="?rota=Projecto-Municipio">Ver carteira</a>
-
-                                            <div class="progress rounded-pill">
-
-                                                <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                                    aria-valuemax="100" style="width: 70%;"
-                                                    class="progress-bar bg-warning rounded-pill"></div>
-
-                                            </div>
-
-
-
-                                        </div>
-
-
+                                </div>-->
                                     </div>
-
                                 </div>
 
 
 
-                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12"> <br>
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+
+                                    <div class=" cards rounded  card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Kilamba</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Kilamba Kiaxi</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional .</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                                    <div class="progress rounded-pill">
+
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <!--<div class="card-body p-4"><img src="../assets/img/carp.jpg" alt=""
+                                        class="img-fluid d-block mx-auto mb-3">
+
+                                    <h5> <a href="?rota=Projecto-Municipio" class="text-dark">Cacuaco</a></h5>
+                                    <h5>Todos os Projectos</h5>
+
+                                    <p class="small text-muted font-italic">Obras do PIIM cobrem
+
+                                        todo o
+
+                                        território
+
+                                        nacional .</p>
+                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                    <div class="progress rounded-pill">
+
+                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100" style="width: 70%;"
+                                            class="progress-bar bg-warning rounded-pill">
+                                        </div>
+                                    </div>
+                                </div>-->
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+
+                                    <div class=" cards rounded  card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Cacuaco</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Cacuaco</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional .</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                                    <div class="progress rounded-pill">
+
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <!--<div class="card-body p-4"><img src="../assets/img/carp.jpg" alt=""
+                                        class="img-fluid d-block mx-auto mb-3">
+
+                                    <h5> <a href="?rota=Projecto-Municipio" class="text-dark">Cacuaco</a></h5>
+                                    <h5>Todos os Projectos</h5>
+
+                                    <p class="small text-muted font-italic">Obras do PIIM cobrem
+
+                                        todo o
+
+                                        território
+
+                                        nacional .</p>
+                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                    <div class="progress rounded-pill">
+
+                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100" style="width: 70%;"
+                                            class="progress-bar bg-warning rounded-pill">
+                                        </div>
+                                    </div>
+                                </div>-->
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+
+                                    <div class="cards rounded  card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Viana</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Viana</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional .</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                                    <div class="progress rounded-pill">
+
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+
+                                    <div class="cards rounded  card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Belas</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Belas</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional .</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                                    <div class="progress rounded-pill">
+
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+
+                                    <div class="cards rounded  card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Icole Bengo</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Icole Bengo</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional .</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                                    <div class="progress rounded-pill">
+
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+
+                                    <div class="cards rounded  card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Viana</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Viana</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional .</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                                    <div class="progress rounded-pill">
+
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+
+                                    <div class="cards rounded  card__inner">
+                                        <div class="card__face card__face--front">
+                                            <h2>Viana</h2>
+                                        </div>
+                                        <div class="card__face card__face--back">
+                                            <div class="card__content">
+                                                <div class="card__header">
+                                                    <img src="transferir.png" alt="" class="pp" />
+                                                    <h2>Município de Viana</h2>
+                                                </div>
+                                                <div class="card__body">
+                                                    <h3>Todos os Projectos</h3>
+                                                    <p>Obras do PIIM cobrem todo o território nacional .</p>
+                                                    <a href="?rota=Projecto-Municipio">Ver carteira</a>
+
+                                                    <div class="progress rounded-pill">
+
+                                                        <div role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                            aria-valuemax="100" style="width: 70%;"
+                                                            class="progress-bar bg-warning rounded-pill"> </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+
+                                <!--<div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12"> <br>
 
                                     <div class="card rounded shadow-sm border-1">
 
@@ -668,12 +860,12 @@
 
                                     </div> <br>
 
-                                </div> <br>
+                                </div> <br>-->
 
                             </div>
 
 
-
+                            <br>
                             <!-- Pagination -->
 
                             <ul class="pagination justify-content-center mb-4">

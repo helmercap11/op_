@@ -306,22 +306,38 @@
 
                             </div>
 
-                            <label for="name"><strong>Selecione o Município</strong></label>
+                        
 
-                            <div class="form-group mt-3">
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="inputAddress">Distrito/Comuna</label>
+                                        <select class="form-select" aria-label="Default select example">
 
-                                <select class="form-select" aria-label="Default select example">
+                                            <option selected>Selecione o Distrito/Comuna</option>
 
-                                    <option selected>Selecione o Município</option>
+                                            <option value="1">Luanda</option>
+                                            <option value="2">Kilamba Kiaxi</option>
+                                            <option value="3">Belas</option>
+                                            <option value="3">Viana</option>
 
-                                    <option value="1">Luanda</option>
-                                    <option value="2">Kilamba Kiaxi</option>
-                                    <option value="3">Belas</option>
-                                    <option value="3">Viana</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <label for="inputAddress">Categória</label>
+                                        <select class="form-select" aria-label="Default select example">
 
-                                </select>
+                                            <option selected>Selecione a Categória</option>
 
-                            </div>
+                                            <option value="1">Luanda</option>
+                                            <option value="2">Kilamba Kiaxi</option>
+                                            <option value="3">Belas</option>
+                                            <option value="3">Viana</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
 
 
                             <div class="row" style="padding-top: 40px;">
